@@ -1,0 +1,63 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+#form3Example3
+{
+    border: 1px solid #152434;
+}
+#form3Example4 {
+    border: 1px solid #152434;
+}
+#form3Example5
+{
+    border: 1px solid #152434;
+}
+
+#form2Example3
+{
+    background-color: #152434;
+}
+#form3Example1
+{
+    border: 1px solid #152434;
+}
+#loginbtn
+{
+    background-color: #152434;
+    color: #fff;
+}
+#signupbtn
+{
+    background-color: #152434;
+    color: #fff;
+}
+#register
+{
+    padding-left: 150px;
+    font-weight: bold;
+}
+#signupitem
+{
+    margin-top: 80px;
+}
+#loginicon
+{
+margin-bottom: 15px;
+}
+#loginh2
+{
+    padding-left: 150px; 
+    font-weight: bold;
+}

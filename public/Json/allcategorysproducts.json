@@ -1,0 +1,60 @@
+{
+    
+    "products": [
+        {
+            "id": 1,
+            "thumbnail": "../Json/Bathroom/Bathroom.jpg",
+            "image": ["../Json/Bathroom/bathroom1.png","../Json/Bathroom/Bathroom/bathroom2.jpg","../Json/Bathroom/Bathroom/Bathroom.jpg"],
+            "tittle": "Vanities and Cabinets",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rem modi placeat impedit omnis aperiam voluptatum animi! Rerum praesentium alias mollitia iusto natus est possimus numquam officiis veniam. Dolore, quidem.",
+            "price": "$2000.00",
+            "rating": "4/5",
+            "stock": "30",
+            "category":"Bathroom"
+        },
+        {
+            "id": 2,
+            "thumbnail": "../Json/Kitchen/Kitchen.jpg",
+            "image": ["../Json/Kitchen/Kitchen1 (1).png","../Json/Kitchen/Kitchen1 (2).png"],
+            "tittle": "Cabinets and Pantries",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rem modi placeat impedit omnis aperiam voluptatum animi! Rerum praesentium alias mollitia iusto natus est possimus numquam officiis veniam. Dolore, quidem.",
+           "price": "$1200.00",
+            "rating": "5/5",
+            "stock": "10",
+            "category":"Kitchen"
+        },
+        {
+            "id": 3,
+            "thumbnail": "../Json/Lighting/Lighting.jpg",
+            "image": ["../Json/Lighting/light2.jpg","../Json/Lighting/lignht1.png"],
+            "tittle": "Cabinets and Pantries",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rem modi placeat impedit omnis aperiam voluptatum animi! Rerum praesentium alias mollitia iusto natus est possimus numquam officiis veniam. Dolore, quidem.",
+           "price": "$100.00",
+            "rating": "5/5",
+            "stock": "17",
+            "category":"Lighting"
+        },
+        {
+            "id": 4,
+            "thumbnail": "../Json/Furniture/Furniture.jpg",
+            "image": ["../Json/Furniture/Furniture.jpg","../Json/Furniture/Furniture.jpg"],
+            "tittle": "Sofas",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rem modi placeat impedit omnis aperiam voluptatum animi! Rerum praesentium alias mollitia iusto natus est possimus numquam officiis veniam. Dolore, quidem.",
+           "price": "$300.00",
+            "rating": "3/5",
+            "stock": "24",
+            "category":"Furniture"
+        },
+        {
+            "id": 5,
+            "thumbnail": "../Json/Decor/Decor2.png",
+            "image": ["../Json/Decor/Decor1.png","../Json/Decor/Decor2.png"],
+            "tittle": "Rugs and Carpets",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae rem modi placeat impedit omnis aperiam voluptatum animi! Rerum praesentium alias mollitia iusto natus est possimus numquam officiis veniam. Dolore, quidem.",
+           "price": "$100.00",
+            "rating": "4/5",
+            "stock": "14",
+            "category":"Decor"
+        }
+    ]
+}

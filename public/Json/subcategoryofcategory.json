@@ -1,0 +1,139 @@
+{
+    "subcategoryes": [
+        {
+            "id": 1,
+            "categoryname": "Furniture",
+            "subcategorye": [
+                {
+                    "title": "Sofas and Couches",
+                    "image": "../Json/subCategory/sofa.png"
+                },
+                {
+                    "title": "Chairs and Recliners",
+                    "image": "../Json/subCategory/chair.png"
+                },
+                {
+                    "title": "Tables (Dining, Coffee tables, or Side tables)",
+                    "image": "../Json/subCategory/tabels.png"
+                },
+                {
+                    "title": "Beds and Mattresses",
+                    "image": "../Json/subCategory/bed.jpg"
+                },
+                {
+                    "title": "Storage (Cabinets, Shelves, or Dressers)",
+                    "image": "../Json/subCategory/cabinet.png"
+                }
+            ],
+            "sliderimage": []
+        },
+        {
+            "id": 2,
+            "categoryname": "Lighting",
+            "subcategorye": [
+                {
+                    "title": "Ceiling Lights",
+                    "image": "../Json/subCategory/CeilingLights.png"
+                },
+                {
+                    "title": "Wall Lights",
+                    "image": "../Json/subCategory/WallLights.png"
+                },
+                {
+                    "title": "Floor Lamps",
+                    "image": "../Json/subCategory/FloorLamps.png"
+                },
+                {
+                    "title": "Table Lamp",
+                    "image": "../Json/subCategory/TableLamps.jpg"
+                },
+                {
+                    "title": "Outdoor Lighting",
+                    "image": "../Json/subCategory/OutdoorLighting.png"
+                }
+            ],
+            "sliderimage": []
+        },
+        {
+            "id": 3,
+            "categoryname": "Decor",
+            "subcategorye": [
+                {
+                    "title": "Rugs and Carpets",
+                    "image": "../Json/subCategory/RugsandCarpets.png"
+                },
+                {
+                    "title": "Curtains and Blinds",
+                    "image": "../Json/subCategory/CurtainsandBlinds.png"
+                },
+                {
+                    "title": "Wall Art and Mirrors",
+                    "image": "../Json/subCategory/WallArtandMirrors.jpg"
+                },
+                {
+                    "title": "Cushions and Throws",
+                    "image": "../Json/subCategory/CushionsandThrows.jpg"
+                },
+                {
+                    "title": "Vases and Plant Pots",
+                    "image": "../Json/subCategory/VasesandPlantPots.jpg"
+                }
+            ],
+            "sliderimage": []
+        },
+        {
+            "id": 4,
+            "categoryname": "Kitchen",
+            "subcategorye": [
+                {
+                    "title": "Cabinets and Pantries",
+                    "image": "../Json/subCategory/CabinetsandPantries.png"
+                },
+                {
+                    "title": "Countertops",
+                    "image": "../Json/subCategory/Countertops.png"
+                },
+                {
+                    "title": "Sinks and Faucets",
+                    "image": "../Json/subCategory/SinksandFaucets.png"
+                },
+                {
+                    "title": "Kitchen Islands and Carts",
+                    "image": "../Json/subCategory/KitchenIslandsandCarts.jpg"
+                },
+                {
+                    "title": "Backsplashes",
+                    "image": "../Json/subCategory/Backsplashes.png"
+                }
+            ],
+            "sliderimage": []
+        },
+        {
+            "id": 5,
+            "categoryname": "Bathroom",
+            "subcategorye": [
+                {
+                    "title": "Vanities and Cabinets",
+                    "image": "../Json/subCategory/VanitiesandCabinets.png"
+                },
+                {
+                    "title": "Showers and Bathtubs",
+                    "image": "../Json/subCategory/ShowersandBathtubs.png"
+                },
+                {
+                    "title": "Toilets and Bidets",
+                    "image": "../Json/subCategory/ToiletsandBidets.png"
+                },
+                {
+                    "title": "Bathroom Sinks",
+                    "image": "../Json/subCategory/BathroomSinks.png"
+                },
+                {
+                    "title": "Mirrors and Medicine Cabinets",
+                    "image": "../Json/subCategory/MirrorsandMedicineCabinets.png"
+                }
+            ],
+            "sliderimage": []
+        }
+    ]
+}
