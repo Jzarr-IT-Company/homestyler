@@ -3,10 +3,9 @@ import { createRoot } from 'react-dom/client'
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from './App.jsx'
 import './index.css'
-import { GlobalStates } from './ContextApi/Contextapi.jsx';
+import { GlobalStates } from './Context/Context.jsx';
 
 createRoot(document.getElementById('root')).render(
-  // Contextapi.jsx
   <StrictMode>
     <GlobalStates>
     <App />
