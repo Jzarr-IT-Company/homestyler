@@ -5,7 +5,7 @@ import { Link, useParams } from 'react-router-dom';
 import Navbar from '../Component/Navbar/Navbar';
 import Categoryes from '../Component/Categoryes/Categoryes';
 import Footer from '../Component/Footer/Footer';
-import { useGlobalState } from '../ContextApi/Contextapi';
+import { useGlobalState } from '../Context/Context';
 
 function ShowAllProducts() {
     const { subCategoryname } = useGlobalState();

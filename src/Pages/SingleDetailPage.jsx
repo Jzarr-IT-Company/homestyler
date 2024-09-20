@@ -4,7 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import Footer from '../Component/Footer/Footer';
 import Navbar from '../Component/Navbar/Navbar';
 import Categoryes from '../Component/Categoryes/Categoryes';
-import { useGlobalState } from '../ContextApi/Contextapi';
+import { useGlobalState } from '../Context/Context';
 
 function SingleDetailPage() {
     const { subCategoryname, setSubCategoryName } = useGlobalState()

@@ -4,7 +4,7 @@ import Navbar from '../Component/Navbar/Navbar';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import Footer from '../Component/Footer/Footer';
-import { useGlobalState } from '../ContextApi/Contextapi';
+import { useGlobalState } from '../Context/Context';
 
 function SubCategory() {
     const { subCategoryname, setSubCategoryName } = useGlobalState()
