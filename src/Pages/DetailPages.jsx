@@ -30,22 +30,16 @@ function DetailPages() {
         navigate('/billing')
     }
     const addtocard = async (data) => {
-       
-    // Retrieve existing products from localStorage
-    const storedProducts = JSON.parse(localStorage.getItem("addToCard")) || [];
-
-    // Add new product to the existing products array
-    storedProducts.push(data);
-
-    // Save updated product list back to localStorage
-    localStorage.setItem("addToCard", JSON.stringify(storedProducts));
+        const storedProducts = JSON.parse(localStorage.getItem("addToCard")) || [];
+        storedProducts.push(data);
+        localStorage.setItem("addToCard", JSON.stringify(storedProducts));
     }
     return (
         <>
             <Navbar />
             <div className="container my-5 py-5">
                 <div className="row">
-                    <div className="col-lg-4 border col-md-5 col-sm-12 d-flex justify-content-center align-items-center">
+                    <div className="col-lg-4 col-md-5 col-sm-12 d-flex justify-content-center align-items-center">
                         <div className="">
                             {
                                 detailProducts.map((data) => {
@@ -58,7 +52,7 @@ function DetailPages() {
                             }
                         </div>
                     </div>
-                    <div className="col-lg-7 col-md-5 col-sm-12 py-5 px-3 border">
+                    <div className="col-lg-7 col-md-5 col-sm-12 py-5 px-3">
                         {
                             detailProducts.map((data) => {
                                 console.log(data)

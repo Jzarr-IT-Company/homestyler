@@ -40,9 +40,9 @@ function Navbar() {
 
                             <li className="nav-item">
                                 <Link
-                                    className={`nav-link text-white fw-semibold ${activeLink === "Categorys" ? "active" : ""}`}
-                                    onClick={() => handleActiveLink("Categorys")}
-                                    to="/categories"
+                                    className={`nav-link text-white fw-semibold ${activeLink === "faqs" ? "active" : ""}`}
+                                    onClick={() => handleActiveLink("faqs")}
+                                    to="/faqs"
                                 >
                                     Faqs
                                 </Link>

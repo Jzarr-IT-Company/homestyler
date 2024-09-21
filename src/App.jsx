@@ -11,6 +11,7 @@ import Biling from './Pages/Biling';
 import CheckOut from './Pages/CheckOut';
 import ContactUS from './Pages/ContactUS';
 import SingleDetailPage from './Pages/SingleDetailPage';
+import Faqs from './Pages/Faqs';
 
 function App() {
   const router = createBrowserRouter([
@@ -53,6 +54,11 @@ function App() {
     {
       path:"/login",
       element:<Login/>
+    }
+    ,
+    {
+      path:"/faqs",
+      element:<Faqs/>
     }
     ,
     {
